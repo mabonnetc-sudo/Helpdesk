@@ -16,7 +16,7 @@ app.use("/cases", caseRoutes);
 app.use("/reports", reportRoutes);
 
 app.get("/", (req, res) => {
-    res.json({ message: "Helpdesk API funcionando correctamente sapos perros" });
+    res.json({ message: "Helpdesk API funcionando correctamente sapos perros esto lo hizo Nicolai PTE" });
 });
 
 const PORT = process.env.PORT || 3000;
